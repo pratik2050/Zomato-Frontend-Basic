@@ -27,11 +27,15 @@ nav {
 }
 nav ul li {
     list-style: none;
-    display: inline-block;
     margin-right: 30px;
-    padding: 16px;
     position: relative;
-    background: linear-gradient(rgb(196, 114, 114),rgb(78, 139, 78));
+    display: inline-block;
+    background: linear-gradient(45deg, hsl(0, 73%, 58%), #ff77f4);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
     cursor: pointer;
 }
 nav ul li a {
