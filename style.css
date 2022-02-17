@@ -42,3 +42,43 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+
+/* Header content */
+
+.header-info {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.header-info h1{
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+}
+.header-info a {
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(45deg, hsl(0, 73%, 58%), #ff77f4);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    cursor: pointer;
+}
+.header-img {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.header-img img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
