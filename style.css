@@ -82,3 +82,16 @@ nav ul li a {
     bottom: 0;
     transform: translateX(-50%);
 }
+
+
+/* Video Intro */
+.intro-video {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.intro-video h1 {
+    margin-top: 10px;
+    font-size: 19px;
+}
