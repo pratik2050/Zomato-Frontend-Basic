@@ -159,7 +159,76 @@ nav ul li a {
     padding: 0 60px;
     margin-top: 20px;
     display: flex;
-
     align-items: center;
 }
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    flex-direction: row;
+}
+input {
+    all: unset;
+    font: 16px system-ui;
+    padding: 6px 10px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    background: linear-gradient(45deg, hsl(0, 73%, 58%), #ff77f4);
+    border-radius: 6px;
+    text-align: center;
+  }
 
+
+  /* last banner */
+  .ran {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(quotes.jfif); 
+    background-position: center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.ran h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+
+/* Footer section css */
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    background: linear-gradient(45deg, hsl(0, 73%, 58%), #ff77f4); 
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+.footer p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.footer-row {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
