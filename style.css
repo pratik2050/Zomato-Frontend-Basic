@@ -125,3 +125,20 @@ nav ul li a {
     width: 100%;
     border-radius: 10px;
 }
+
+
+/* List Restaurants */
+.restaurant-img {
+    width: 45%;
+    height: 80%;
+    position: relative;
+    bottom: 0;
+    right: 100px;
+}
+.restaurant-img div {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
